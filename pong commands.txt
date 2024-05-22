@@ -1,0 +1,15 @@
+Server start commands-
+
+node server/server.js
+http://localhost:3000
+
+
+Directory structure -
+
+pong/
+├── client/                 # Frontend code
+│   ├── index.html          # Main HTML file
+│   ├── style.css           # CSS styles
+│   └── script.js           # JavaScript code
+├── server/                 # Backend code
+│   └── server.js           # Express.js server code

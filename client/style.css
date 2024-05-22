@@ -1,0 +1,44 @@
+/* Apply styles to the canvas */
+#gameCanvas {
+    background-color: #29078e; /* Set the background color of the canvas */
+    border: 2px solid #0b0b0b; /* Add a border around the canvas */
+    display: block; /* Ensure the canvas is displayed as a block element */
+    margin: 0 auto; /* Center the canvas horizontally */
+}
+
+/* Style the paddles */
+.paddle {
+    width: 10px; /* Set the width of the paddle */
+    height: 80px; /* Set the height of the paddle */
+    background-color: #fff; /* Set the color of the paddle */
+    position: absolute; /* Position the paddle relative to the canvas */
+}
+
+/* Style the ball */
+.ball {
+    width: 10px; /* Set the width of the ball */
+    height: 10px; /* Set the height of the ball */
+    background-color: #d10c0c; /* Set the color of the ball */
+    border-radius: 50%; /* Make the ball round */
+    position: absolute; /* Position the ball relative to the canvas */
+}
+
+/* Style the player's paddle */
+#playerPaddle {
+    left: 10px; /* Position the player's paddle on the left side of the canvas */
+}
+
+/* Style the opponent's paddle */
+#opponentPaddle {
+    right: 10px; /* Position the opponent's paddle on the right side of the canvas */
+}
+
+/* Style the score display */
+#scoreDisplay {
+    color: #1cbc94; /* Set the color of the score display */
+    font-size: 24px; /* Set the font size of the score display */
+    position: absolute; /* Position the score display relative to the canvas */
+    top: 20px; /* Position the score display 20 pixels from the top of the canvas */
+    left: 50%; /* Position the score display in the center horizontally */
+    transform: translateX(-50%); /* Center the score display horizontally */
+}
